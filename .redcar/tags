@@ -1,0 +1,8 @@
+1374738403
+Application	/home/admilson/Rails/Micro_twitter/config/application.rb	  class Application 
+ApplicationController	/home/admilson/Rails/Micro_twitter/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/home/admilson/Rails/Micro_twitter/app/helpers/application_helper.rb	module ApplicationHelper
+BrowsingTest	/home/admilson/Rails/Micro_twitter/test/performance/browsing_test.rb	class BrowsingTest 
+MicroTwitter	/home/admilson/Rails/Micro_twitter/config/application.rb	module MicroTwitter
+TestCase	/home/admilson/Rails/Micro_twitter/test/test_helper.rb	class ActiveSupport::TestCase
+test_homepage	/home/admilson/Rails/Micro_twitter/test/performance/browsing_test.rb	  def test_homepage

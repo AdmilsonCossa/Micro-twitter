@@ -1,4 +1,17 @@
 MicroTwitter::Application.routes.draw do
+ resources :users
+  get 'users', to: 'users#index'
+  get 'users/new', to: 'users#new'
+  get 'users/edit', to:  'users#edit'
+  get  'users/', to:  'users#show'
+  resources :user_sessions  
+     get 'login', to: 'user_sessions#new'
+     get 'logout', to: 'user_sessions#destroy'
+  
+    
+
+  
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

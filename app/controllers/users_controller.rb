@@ -42,7 +42,7 @@ end
 
       if @user.save
 
-        flash[:notice] = "Create successful!"
+        flash[:notice] = "Registered successfully!"
 
         redirect_to "/"
 
